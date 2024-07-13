@@ -42,7 +42,3 @@ This guide outlines the setup and execution steps for a Selenium WebDriver scrip
 
 - Driver Path Issues: Ensure `msedgedriver.exe` path in `getDriverPath()` method (`Task.java`) correctly points to the `Driver` folder relative to your project.
 - WebDriver Initialization: Check `System.setProperty("webdriver.edge.driver", driverPath);` in `main()` method (`Task.java`) correctly sets the Edge WebDriver path.
-
-**Conclusion**
-
-This guide provides a comprehensive overview of setting up, executing, and troubleshooting a Selenium WebDriver script using Microsoft Edge in Eclipse. Adjust paths and configurations as per your project setup.
